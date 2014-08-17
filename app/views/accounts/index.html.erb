@@ -1,0 +1,47 @@
+<h1>Chart of Accounts</h1>
+
+<%= link_to new_account_path, class: 'btn btn-default' do %>
+  <%= glyphicon('plus') %> Add Account
+<% end %>
+
+<br><br>
+
+<ul class="nav nav-tabs" role="tablist">
+  <%= nav_action_link 'All Accounts', accounts_path %>
+
+  <% %w(assets liabilities equity expenses revenue).each do |account_type| %>
+    <%= nav_action_link account_type.titleize, send("#{account_type}_accounts_path") %>
+  <% end %>
+</ul>
+
+<table id="accounts" class='table table-striped'>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Name</th>
+      <th>Type</th>
+      <th class='text-right'>Balance</th>
+      <th class='text-right'>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @accounts.each do |account| %>
+      <tr>
+        <td><%= account.code %></td>
+        <td><%= link_to account.name, account_path(account) %></td>
+        <td><%= account.type %></td>
+        <td class='text-right'><%= account.balance %></td>
+        <td class='text-right'>
+          <%= link_to account_path(account), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-xs btn-danger' do %>
+            <%= glyphicon('trash') %> Delete
+          <% end if account.deletable? %>
+
+          <%= link_to edit_account_path(account), class: 'btn btn-xs btn-primary' do %>
+            <%= glyphicon('edit') %> Edit
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,66 @@
+<h1>Journal Entries</h1>
+
+<%= page_entries_info @entries unless @entries.out_of_range? %>
+
+<br>
+
+<%= link_to new_entry_path, class: 'btn btn-default' do %>
+  <%= glyphicon('plus') %> New Entry
+<% end %>
+
+<div class='pull-right'>
+  <%= paginate @entries %>
+</div>
+
+<table class='table'>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Account</th>
+      <th>Code</th>
+      <th class='text-right'>Debit</th>
+      <th class='text-right'>Credit</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @entries.each do |entry| %>
+      <tr>
+        <td rowspan=<%= entry.table_rows %>>
+          <%= entry.date %>
+        </td>
+      </tr>
+
+      <% entry.debit_amounts.each do |amount| %>
+        <tr>
+          <td><%= link_to amount.account.name, account_path(amount.account) %></td>
+          <td><%= link_to amount.account.code, account_path(amount.account) %></td>
+          <td class='text-right'><%= amount.amount %></td>
+          <td></td>
+        </tr>
+      <% end %>
+
+      <% entry.credit_amounts.each do |amount| %>
+        <tr>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to amount.account.name, account_path(amount.account) %></td>
+          <td><%= link_to amount.account.code, account_path(amount.account) %></td>
+          <td></td>
+          <td class='text-right'><%= amount.amount %></td>
+        </tr>
+      <% end %>
+
+      <% if entry.description %>
+        <tr>
+          <td><strong><%= entry.description(50) %></strong></td>
+          <td colspan='3'></td>
+        </tr>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>
+
+<div class='pull-right'>
+  <%= paginate @entries %>
+</div>
+
+<%= page_entries_info @entries unless @entries.out_of_range? %>

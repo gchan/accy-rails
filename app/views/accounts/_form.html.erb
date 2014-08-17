@@ -1,0 +1,13 @@
+<%= simple_form_for @account, as: :account, url: @account.persisted? ? account_path(@account) : accounts_path  do |f| %>
+  <%= f.error_notification %>
+
+  <% types = %w(Asset Liability Equity Expense Revenue).map{ |type| [type, "Plutus::#{type}"] } %>
+
+  <%= f.input :name, placeholder: "Name (e.g. Accumulated Depreciation - Vehicles)" %>
+  <%= f.input :code, placeholder: "Code (e.g. 101)" %>
+  <%= f.input :type, as: :select, collection: types, selected: "Plutus::#{f.object.type}" %>
+
+  <%= f.button :submit, "Save", class: "btn-primary" %>
+  <%= link_to 'Cancel', :back, data: { confirm: "Discard changes?" } %>
+
+<% end %>

@@ -1,0 +1,79 @@
+<ol class="breadcrumb">
+  <li><%= link_to "Accounts", accounts_path %></li>
+  <li><%= link_to @account.type.pluralize, account_path(@account.type.pluralize.parameterize) %></a></li>
+  <li class="active"><%= @account.name %></li>
+</ol>
+
+<h1><%= @account.type %> Account: <%= @account.name %></h1>
+
+<div class="panel panel-default">
+  <table id="" class='table'>
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Transactions</th>
+        <th>Last Transaction</th>
+        <th>Balance</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><%= @account.code %></td>
+        <td><%= @account.name %></td>
+        <td><%= @account.type %></td>
+        <td><%= @account.transactions %></td>
+        <td><%= @account.last_transaction_date %></td>
+        <td><%= @account.balance %></td>
+      </tr>
+      <tr>
+        <td colspan='6' class='text-right'>
+          <%= link_to account_path(@account), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm btn-danger' do %>
+            <%= glyphicon('trash') %> Delete
+          <% end if @account.deletable? %>
+
+          <%= link_to edit_account_path(@account), class: 'btn btn-sm btn-primary' do %>
+            <%= glyphicon('edit') %> Edit
+          <% end %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Transactions</h3>
+
+<% if @account.amounts.empty? %>
+  There are no transactions in this account.
+
+<% else %>
+  <table id="transactions" class='table table-striped'>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th class='text-right'>Debit</th>
+        <th class='text-right'>Credit</th>
+        <th class='text-right'>Balance</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @account.amounts.each do |amount| %>
+        <tr>
+          <td><%= amount.entry.date %></td>
+          <td><%= amount.entry.description %></td>
+          <td class='text-right'><%= amount.amount if amount.debit_amount? %></td>
+          <td class='text-right'><%= amount.amount if amount.credit_amount? %></td>
+          <td class='text-right'><%= number_to_accounting amount.entry.balance %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <div class='clearfix'></div>
+
+  <%= link_to "Back to top", '#top' %>
+<% end %>

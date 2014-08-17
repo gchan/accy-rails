@@ -1,0 +1,531 @@
+JournalNumber	JournalDate	AccountName	AccountCode	Name	NetAmount	GSTAmount	GrossAmount	TaxCode	Region	Reference	Description	BankAccountCode
+183	05-Jun-2013	Historical Adjustment	840	Current Liability	-4130.98	0	-4130.98	No GST				90
+183	05-Jun-2013	Business Bank Account	90	Bank	4130.98	0	4130.98	No GST				90
+184	05-Jul-2013	GST	820	Current Liability	11.74	0	11.74			RPT445-1		
+184	05-Jul-2013	Accounts Payable	800	Current Liability	-90	0	-90			RPT445-1		
+184	05-Jul-2013	Light, Power, Heating	445	Overhead	78.26	11.74	90	15% GST on Expenses		RPT445-1	Monthly electricity	
+185	09-Jul-2013	GST	820	Current Liability	-65.22	0	-65.22			INV-0001		
+185	09-Jul-2013	Accounts Receivable	610	Current Asset	500	0	500			INV-0001		
+185	09-Jul-2013	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0001	Retainer for consulting work	
+186	15-Jul-2013	Accounts Payable	800	Current Liability	90	0	90					90
+186	15-Jul-2013	Business Bank Account	90	Bank	-90	0	-90					90
+187	19-Jul-2013	Accounts Receivable	610	Current Asset	-500	0	-500					90
+187	19-Jul-2013	Business Bank Account	90	Bank	500	0	500					90
+188	05-Aug-2013	GST	820	Current Liability	12.46	0	12.46			RPT445-1		
+188	05-Aug-2013	Accounts Payable	800	Current Liability	-95.5	0	-95.5			RPT445-1		
+188	05-Aug-2013	Light, Power, Heating	445	Overhead	83.04	12.46	95.5	15% GST on Expenses		RPT445-1	Monthly electricity	
+189	08-Aug-2013	GST	820	Current Liability	-65.22	0	-65.22			INV-0002		
+189	08-Aug-2013	Accounts Receivable	610	Current Asset	500	0	500			INV-0002		
+189	08-Aug-2013	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0002	Retainer for consulting work	
+190	13-Aug-2013	Accounts Payable	800	Current Liability	95.5	0	95.5					90
+190	13-Aug-2013	Business Bank Account	90	Bank	-95.5	0	-95.5					90
+191	18-Aug-2013	Accounts Receivable	610	Current Asset	-500	0	-500					90
+191	18-Aug-2013	Business Bank Account	90	Bank	500	0	500					90
+192	04-Sep-2013	GST	820	Current Liability	12.65	0	12.65			RPT445-1		
+192	04-Sep-2013	Accounts Payable	800	Current Liability	-97	0	-97			RPT445-1		
+192	04-Sep-2013	Light, Power, Heating	445	Overhead	84.35	12.65	97	15% GST on Expenses		RPT445-1	Monthly electricity	
+193	08-Sep-2013	GST	820	Current Liability	-65.22	0	-65.22			INV-0003		
+193	08-Sep-2013	Accounts Receivable	610	Current Asset	500	0	500			INV-0003		
+193	08-Sep-2013	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0003	Retainer for consulting work	
+194	10-Sep-2013	Accounts Payable	800	Current Liability	97	0	97					90
+194	10-Sep-2013	Business Bank Account	90	Bank	-97	0	-97					90
+195	20-Sep-2013	Accounts Receivable	610	Current Asset	-500	0	-500					90
+195	20-Sep-2013	Business Bank Account	90	Bank	500	0	500					90
+196	05-Oct-2013	GST	820	Current Liability	12	0	12			RPT445-1		
+196	05-Oct-2013	Accounts Payable	800	Current Liability	-92	0	-92			RPT445-1		
+196	05-Oct-2013	Light, Power, Heating	445	Overhead	80	12	92	15% GST on Expenses		RPT445-1	Monthly electricity	
+197	09-Oct-2013	GST	820	Current Liability	-130.44	0	-130.44			INV-0004		
+197	09-Oct-2013	Accounts Receivable	610	Current Asset	1000	0	1000			INV-0004		
+197	09-Oct-2013	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0004	Retainer for consulting work	
+197	09-Oct-2013	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0004	Half day training - Microsoft Office	
+198	12-Oct-2013	Accounts Payable	800	Current Liability	92	0	92					90
+198	12-Oct-2013	Business Bank Account	90	Bank	-92	0	-92					90
+199	16-Oct-2013	Accounts Receivable	610	Current Asset	-1000	0	-1000					90
+199	16-Oct-2013	Business Bank Account	90	Bank	1000	0	1000					90
+200	03-Nov-2013	GST	820	Current Liability	11.61	0	11.61			RPT445-1		
+200	03-Nov-2013	Accounts Payable	800	Current Liability	-89	0	-89			RPT445-1		
+200	03-Nov-2013	Light, Power, Heating	445	Overhead	77.39	11.61	89	15% GST on Expenses		RPT445-1	Monthly electricity	
+202	05-Nov-2013	GST	820	Current Liability	-11.61	0	-11.61			Elec.		
+201	05-Nov-2013	GST	820	Current Liability	11.61	0	11.61			Elec.		
+202	05-Nov-2013	Accounts Payable	800	Current Liability	89	0	89			Elec.		
+201	05-Nov-2013	Accounts Payable	800	Current Liability	-89	0	-89			Elec.		
+202	05-Nov-2013	Light, Power, Heating	445	Overhead	-77.39	-11.61	-89	15% GST on Expenses		Elec.	Monthly electricity	
+201	05-Nov-2013	Light, Power, Heating	445	Overhead	77.39	11.61	89	15% GST on Expenses		Elec.	Monthly electricity	
+203	06-Nov-2013	GST	820	Current Liability	-65.22	0	-65.22			INV-0005		
+203	06-Nov-2013	Accounts Receivable	610	Current Asset	500	0	500			INV-0005		
+203	06-Nov-2013	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0005	Retainer for consulting work	
+204	13-Nov-2013	Accounts Receivable	610	Current Asset	-500	0	-500					90
+205	13-Nov-2013	Accounts Payable	800	Current Liability	89	0	89					90
+204	13-Nov-2013	Business Bank Account	90	Bank	500	0	500					90
+205	13-Nov-2013	Business Bank Account	90	Bank	-89	0	-89					90
+206	03-Dec-2013	GST	820	Current Liability	11.87	0	11.87			RPT445-1		
+206	03-Dec-2013	Accounts Payable	800	Current Liability	-91	0	-91			RPT445-1		
+206	03-Dec-2013	Light, Power, Heating	445	Overhead	79.13	11.87	91	15% GST on Expenses		RPT445-1	Monthly electricity	
+207	07-Dec-2013	GST	820	Current Liability	-65.22	0	-65.22			INV-0006		
+207	07-Dec-2013	Accounts Receivable	610	Current Asset	500	0	500			INV-0006		
+207	07-Dec-2013	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0006	Retainer for consulting work	
+208	13-Dec-2013	Accounts Payable	800	Current Liability	91	0	91					90
+208	13-Dec-2013	Business Bank Account	90	Bank	-91	0	-91					90
+209	16-Dec-2013	Accounts Receivable	610	Current Asset	-500	0	-500					90
+209	16-Dec-2013	Business Bank Account	90	Bank	500	0	500					90
+210	03-Jan-2014	GST	820	Current Liability	12.55	0	12.55			RPT445-1		
+210	03-Jan-2014	Accounts Payable	800	Current Liability	-96.25	0	-96.25			RPT445-1		
+210	03-Jan-2014	Light, Power, Heating	445	Overhead	83.7	12.55	96.25	15% GST on Expenses		RPT445-1	Monthly electricity	
+211	06-Jan-2014	GST	820	Current Liability	-65.22	0	-65.22			INV-0007		
+211	06-Jan-2014	GST	820	Current Liability	-130.43	0	-130.43		West Coast	INV-0007		
+211	06-Jan-2014	Accounts Receivable	610	Current Asset	500	0	500			INV-0007		
+211	06-Jan-2014	Accounts Receivable	610	Current Asset	1000	0	1000		West Coast	INV-0007		
+211	06-Jan-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0007	Retainer for consulting work	
+211	06-Jan-2014	Sales	200	Revenue	-869.57	-130.43	-1000	15% GST on Income	West Coast	INV-0007	Onsite project management p/hr	
+212	12-Jan-2014	Accounts Receivable	610	Current Asset	-500	0	-500					90
+212	12-Jan-2014	Accounts Receivable	610	Current Asset	-1000	0	-1000		West Coast			90
+213	12-Jan-2014	Accounts Payable	800	Current Liability	96.25	0	96.25					90
+213	12-Jan-2014	Business Bank Account	90	Bank	-96.25	0	-96.25					90
+212	12-Jan-2014	Business Bank Account	90	Bank	500	0	500					90
+212	12-Jan-2014	Business Bank Account	90	Bank	1000	0	1000		West Coast			90
+214	02-Feb-2014	GST	820	Current Liability	13.12	0	13.12			RPT445-1		
+214	02-Feb-2014	Accounts Payable	800	Current Liability	-100.6	0	-100.6			RPT445-1		
+214	02-Feb-2014	Light, Power, Heating	445	Overhead	87.48	13.12	100.6	15% GST on Expenses		RPT445-1	Monthly electricity	
+215	06-Feb-2014	GST	820	Current Liability	-65.22	0	-65.22			INV-0008		
+215	06-Feb-2014	Accounts Receivable	610	Current Asset	500	0	500			INV-0008		
+215	06-Feb-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0008	Retainer for consulting work	
+216	12-Feb-2014	Accounts Payable	800	Current Liability	100.6	0	100.6					90
+216	12-Feb-2014	Business Bank Account	90	Bank	-100.6	0	-100.6					90
+217	13-Feb-2014	Accounts Receivable	610	Current Asset	-500	0	-500					90
+217	13-Feb-2014	Business Bank Account	90	Bank	500	0	500					90
+218	05-Mar-2014	GST	820	Current Liability	13.79	0	13.79			RPT445-1		
+218	05-Mar-2014	Accounts Payable	800	Current Liability	-105.75	0	-105.75			RPT445-1		
+218	05-Mar-2014	Light, Power, Heating	445	Overhead	91.96	13.79	105.75	15% GST on Expenses		RPT445-1	Monthly electricity	
+219	08-Mar-2014	GST	820	Current Liability	-65.22	0	-65.22			INV-0009		
+219	08-Mar-2014	GST	820	Current Liability	-91.3	0	-91.3		West Coast	INV-0009		
+219	08-Mar-2014	Accounts Receivable	610	Current Asset	500	0	500			INV-0009		
+219	08-Mar-2014	Accounts Receivable	610	Current Asset	700	0	700		West Coast	INV-0009		
+219	08-Mar-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0009	Retainer for consulting work	
+219	08-Mar-2014	Sales	200	Revenue	-608.7	-91.3	-700	15% GST on Income	West Coast	INV-0009	Onsite project management p/hr	
+220	14-Mar-2014	Accounts Payable	800	Current Liability	105.75	0	105.75					90
+220	14-Mar-2014	Business Bank Account	90	Bank	-105.75	0	-105.75					90
+221	15-Mar-2014	Accounts Receivable	610	Current Asset	-500	0	-500					90
+221	15-Mar-2014	Accounts Receivable	610	Current Asset	-700	0	-700		West Coast			90
+221	15-Mar-2014	Business Bank Account	90	Bank	500	0	500					90
+221	15-Mar-2014	Business Bank Account	90	Bank	700	0	700		West Coast			90
+222	04-Apr-2014	GST	820	Current Liability	13.89	0	13.89			RPT445-1		
+222	04-Apr-2014	Accounts Payable	800	Current Liability	-106.5	0	-106.5			RPT445-1		
+222	04-Apr-2014	Light, Power, Heating	445	Overhead	92.61	13.89	106.5	15% GST on Expenses		RPT445-1	Monthly electricity	
+223	08-Apr-2014	GST	820	Current Liability	-65.22	0	-65.22			INV-0010		
+223	08-Apr-2014	Accounts Receivable	610	Current Asset	500	0	500			INV-0010		
+223	08-Apr-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0010	Retainer for consulting work	
+224	15-Apr-2014	Accounts Payable	800	Current Liability	106.5	0	106.5					90
+224	15-Apr-2014	Business Bank Account	90	Bank	-106.5	0	-106.5					90
+225	19-Apr-2014	Accounts Receivable	610	Current Asset	-500	0	-500					90
+225	19-Apr-2014	Business Bank Account	90	Bank	500	0	500					90
+226	05-May-2014	GST	820	Current Liability	15.53	0	15.53			RPT445-1		
+226	05-May-2014	Accounts Payable	800	Current Liability	-119.08	0	-119.08			RPT445-1		
+226	05-May-2014	Light, Power, Heating	445	Overhead	103.55	15.53	119.08	15% GST on Expenses		RPT445-1	Monthly electricity	
+227	06-May-2014	Business Bank Account	90	Bank	-15	0	-15			Fee		90
+227	06-May-2014	Bank Fees	404	Overhead	15	0	15	No GST		Fee	Bank fee	90
+228	08-May-2014	GST	820	Current Liability	247.83	0	247.83			720-1		
+228	08-May-2014	Accounts Payable	800	Current Liability	-1900	0	-1900			720-1		
+228	08-May-2014	Computer Equipment	720	Fixed Asset	1652.17	247.83	1900	15% GST on Expenses		720-1	Laptop	
+229	09-May-2014	GST	820	Current Liability	-65.22	0	-65.22			INV-0011		
+229	09-May-2014	GST	820	Current Liability	-260.87	0	-260.87		West Coast	INV-0011		
+230	09-May-2014	GST	820	Current Liability	138.73	0	138.73		South	945-Ocon		
+229	09-May-2014	Accounts Receivable	610	Current Asset	500	0	500			INV-0011		
+229	09-May-2014	Accounts Receivable	610	Current Asset	2000	0	2000		West Coast	INV-0011		
+230	09-May-2014	Accounts Payable	800	Current Liability	-1063.56	0	-1063.56		South	945-Ocon		
+230	09-May-2014	Repairs and Maintenance	473	Overhead	924.83	138.73	1063.56	15% GST on Expenses	South	945-Ocon	Photocopier repair & drum replacement	
+229	09-May-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income		INV-0011	Retainer for consulting work	
+229	09-May-2014	Sales	200	Revenue	-1739.13	-260.87	-2000	15% GST on Income	West Coast	INV-0011	Onsite project management p/hr	
+232	11-May-2014	GST	820	Current Liability	5.86	0	5.86			RPT489-1		
+232	11-May-2014	Accounts Payable	800	Current Liability	-44.92	0	-44.92			RPT489-1		
+231	11-May-2014	Business Bank Account	90	Bank	-21.71	0	-21.71			Eft		90
+231	11-May-2014	GST	820	Current Liability	2.83	0	2.83			Eft		90
+232	11-May-2014	Telephone & Internet	489	Overhead	39.06	5.86	44.92	15% GST on Expenses		RPT489-1	Cable internet	
+231	11-May-2014	Printing & Stationery	461	Overhead	18.88	2.83	21.71	15% GST on Expenses		Eft	Misc stationery	90
+233	13-May-2014	Business Bank Account	90	Bank	-16	0	-16					90
+233	13-May-2014	GST	820	Current Liability	2.09	0	2.09					90
+233	13-May-2014	Entertainment	420	Overhead	13.91	2.09	16	15% GST on Expenses			Team coffees	90
+238	16-May-2014	GST	820	Current Liability	-70.6	0	-70.6		North	INV-0012		
+235	16-May-2014	GST	820	Current Liability	-70.6	0	-70.6		West Coast	INV-0015		
+237	16-May-2014	GST	820	Current Liability	-70.6	0	-70.6		South	INV-0013		
+236	16-May-2014	GST	820	Current Liability	-70.6	0	-70.6		Eastside	INV-0014		
+238	16-May-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		North	INV-0012		
+235	16-May-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		West Coast	INV-0015		
+237	16-May-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		South	INV-0013		
+236	16-May-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		Eastside	INV-0014		
+234	16-May-2014	Business Bank Account	90	Bank	-65.2	0	-65.2					90
+234	16-May-2014	GST	820	Current Liability	8.5	0	8.5					90
+234	16-May-2014	Office Expenses	453	Overhead	56.7	8.5	65.2	15% GST on Expenses			Misc kitchen supplies for office	90
+238	16-May-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	North	INV-0012	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+235	16-May-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	West Coast	INV-0015	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+237	16-May-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	South	INV-0013	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+236	16-May-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	Eastside	INV-0014	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+239	17-May-2014	GST	820	Current Liability	-70.6	0	-70.6		North	INV-0016		
+239	17-May-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		North	INV-0016		
+239	17-May-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	North	INV-0016	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+241	18-May-2014	Tracking Transfers	877	Current Liability	541.25	0	541.25		North			
+241	18-May-2014	Tracking Transfers	877	Current Liability	-541.25	0	-541.25		North			
+240	18-May-2014	GST	820	Current Liability	70.6	0	70.6		North	CN-0025		
+241	18-May-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		North			
+241	18-May-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		North			
+240	18-May-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		North	CN-0025		
+240	18-May-2014	Sales	200	Revenue	470.65	70.6	541.25	15% GST on Income	North	CN-0025	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+242	19-May-2014	GST	820	Current Liability	-32.61	0	-32.61		South	INV-0017		
+242	19-May-2014	Accounts Receivable	610	Current Asset	250	0	250		South	INV-0017		
+242	19-May-2014	Sales	200	Revenue	-217.39	-32.61	-250	15% GST on Income	South	INV-0017	Project management & implementation - branding workshop with your team	
+243	20-May-2014	Business Bank Account	90	Bank	-50	0	-50			Gift		90
+243	20-May-2014	GST	820	Current Liability	6.52	0	6.52			Gift		90
+243	20-May-2014	General Expenses	429	Overhead	43.48	6.52	50	15% GST on Expenses		Gift	Bouquet for client	90
+245	21-May-2014	GST	820	Current Liability	154.08	0	154.08			RPT469-1		
+244	21-May-2014	Accounts Receivable	610	Current Asset	-500	0	-500					90
+244	21-May-2014	Accounts Receivable	610	Current Asset	-2000	0	-2000		West Coast			90
+245	21-May-2014	Accounts Payable	800	Current Liability	-1181.25	0	-1181.25			RPT469-1		
+244	21-May-2014	Business Bank Account	90	Bank	500	0	500					90
+244	21-May-2014	Business Bank Account	90	Bank	2000	0	2000		West Coast			90
+245	21-May-2014	Rent	469	Overhead	1027.17	154.08	1181.25	15% GST on Expenses		RPT469-1	Monthly rent in advance	
+248	23-May-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		North			90
+246	23-May-2014	Business Bank Account	90	Bank	-15.6	0	-15.6					90
+248	23-May-2014	Business Bank Account	90	Bank	541.25	0	541.25		North			90
+247	23-May-2014	Business Bank Account	90	Bank	-148.5	0	-148.5		Eastside	Chq 409		90
+246	23-May-2014	GST	820	Current Liability	2.03	0	2.03					90
+247	23-May-2014	GST	820	Current Liability	19.37	0	19.37		Eastside	Chq 409		90
+247	23-May-2014	Motor Vehicle Expenses	449	Overhead	129.13	19.37	148.5	15% GST on Expenses	Eastside	Chq 409	Monthly carpark	90
+246	23-May-2014	Entertainment	420	Overhead	13.57	2.03	15.6	15% GST on Expenses			Team coffee	90
+249	24-May-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		South			90
+249	24-May-2014	Business Bank Account	90	Bank	541.25	0	541.25		South			90
+250	25-May-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		Eastside			90
+250	25-May-2014	Business Bank Account	90	Bank	541.25	0	541.25		Eastside			90
+254	26-May-2014	GST	820	Current Liability	-43.02	0	-43.02		South	INV-0018		
+251	26-May-2014	GST	820	Current Liability	7.35	0	7.35			RPT412-1		
+255	26-May-2014	GST	820	Current Liability	226.2	0	226.2			720-2		
+254	26-May-2014	Accounts Receivable	610	Current Asset	329.8	0	329.8		South	INV-0018		
+252	26-May-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		West Coast			90
+251	26-May-2014	Accounts Payable	800	Current Liability	-56.35	0	-56.35			RPT412-1		
+253	26-May-2014	Accounts Payable	800	Current Liability	56.35	0	56.35					90
+255	26-May-2014	Accounts Payable	800	Current Liability	-1734.24	0	-1734.24			720-2		
+253	26-May-2014	Business Bank Account	90	Bank	-56.35	0	-56.35					90
+252	26-May-2014	Business Bank Account	90	Bank	541.25	0	541.25		West Coast			90
+255	26-May-2014	Office Expenses	453	Overhead	235.1	35.26	270.36	15% GST on Expenses		720-2	DVD writer for laptop	
+255	26-May-2014	Subscriptions	485	Overhead	1272.94	190.94	1463.88	15% GST on Expenses		720-2	Webrrls Club sub	
+251	26-May-2014	Consulting & Accounting	412	Overhead	49	7.35	56.35	15% GST on Expenses		RPT412-1	Monthly subscription	
+254	26-May-2014	Sales	200	Revenue	-217.39	-32.61	-250	15% GST on Income	South	INV-0018	Project management & implementation - branding workshop with your team ======================== - 'Buzz Words' session with your Steering Group - Analysis of current marketing materials - Workshop on re-brand outcomes and stakeholder identification - Analysis and presentation of findings to your Steering Group & Board	
+254	26-May-2014	Sales	200	Revenue	-69.39	-10.41	-79.8	15% GST on Income	South	INV-0018	Copies of 'Fish out of Water: Finding Your Brand' for your branding team	
+258	27-May-2014	Accounts Payable	800	Current Liability	1181.25	0	1181.25					90
+257	27-May-2014	Accounts Payable	800	Current Liability	44.92	0	44.92					90
+259	27-May-2014	Accounts Payable	800	Current Liability	1900	0	1900					90
+256	27-May-2014	Accounts Payable	800	Current Liability	119.08	0	119.08					90
+260	27-May-2014	Business Bank Account	90	Bank	-0.05	0	-0.05					90
+258	27-May-2014	Business Bank Account	90	Bank	-1181.25	0	-1181.25					90
+257	27-May-2014	Business Bank Account	90	Bank	-44.92	0	-44.92					90
+259	27-May-2014	Business Bank Account	90	Bank	-1900	0	-1900					90
+256	27-May-2014	Business Bank Account	90	Bank	-119.08	0	-119.08					90
+260	27-May-2014	Rounding	860	Current Liability	0.05	0	0.05					90
+262	29-May-2014	Tracking Transfers	877	Current Liability	-270.36	0	-270.36					
+262	29-May-2014	Tracking Transfers	877	Current Liability	270.36	0	270.36					
+261	29-May-2014	GST	820	Current Liability	-35.26	0	-35.26			720-2		
+261	29-May-2014	Accounts Payable	800	Current Liability	270.36	0	270.36			720-2		
+262	29-May-2014	Accounts Payable	800	Current Liability	270.36	0	270.36					
+262	29-May-2014	Accounts Payable	800	Current Liability	-270.36	0	-270.36					
+261	29-May-2014	Office Expenses	453	Overhead	-235.1	-35.26	-270.36	15% GST on Expenses		720-2	Unable to supply DVD writer for laptop	
+265	31-May-2014	GST	820	Current Liability	7.77	0	7.77			RPT453-1		
+263	31-May-2014	GST	820	Current Liability	-130.44	0	-130.44		North	INV-0019		
+263	31-May-2014	GST	820	Current Liability	-65.22	0	-65.22		West Coast	INV-0019		
+266	31-May-2014	GST	820	Current Liability	15.53	0	15.53			408		
+263	31-May-2014	Accounts Receivable	610	Current Asset	1000	0	1000		North	INV-0019		
+263	31-May-2014	Accounts Receivable	610	Current Asset	500	0	500		West Coast	INV-0019		
+264	31-May-2014	Accounts Receivable	610	Current Asset	-1000	0	-1000		North			90
+264	31-May-2014	Accounts Receivable	610	Current Asset	-500	0	-500		West Coast			90
+265	31-May-2014	Accounts Payable	800	Current Liability	-59.54	0	-59.54			RPT453-1		
+266	31-May-2014	Accounts Payable	800	Current Liability	-119.08	0	-119.08			408		
+264	31-May-2014	Business Bank Account	90	Bank	1000	0	1000		North			90
+264	31-May-2014	Business Bank Account	90	Bank	500	0	500		West Coast			90
+265	31-May-2014	Office Expenses	453	Overhead	51.77	7.77	59.54	15% GST on Expenses		RPT453-1	Our share building doorman/security	
+266	31-May-2014	Cleaning	408	Overhead	103.55	15.53	119.08	15% GST on Expenses		408	Office clean for month	
+263	31-May-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income	North	INV-0019	Half day training - Microsoft Office - for your Customer Support Team (Session 1)	
+263	31-May-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income	North	INV-0019	Half day training - Microsoft Office - for your Lending Services Team (Session 2)	
+263	31-May-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income	West Coast	INV-0019	Half day training - Microsoft Office  - for your Priority Mortgage Services Team (Session 3)	
+268	03-Jun-2014	Tracking Transfers	877	Current Liability	-25.44	0	-25.44					
+268	03-Jun-2014	Tracking Transfers	877	Current Liability	25.44	0	25.44					
+267	03-Jun-2014	GST	820	Current Liability	-3.32	0	-3.32			RPT453-1		
+269	03-Jun-2014	Accounts Receivable	610	Current Asset	-329.8	0	-329.8		South			90
+267	03-Jun-2014	Accounts Payable	800	Current Liability	25.44	0	25.44			RPT453-1		
+268	03-Jun-2014	Accounts Payable	800	Current Liability	25.44	0	25.44					
+268	03-Jun-2014	Accounts Payable	800	Current Liability	-25.44	0	-25.44					
+269	03-Jun-2014	Business Bank Account	90	Bank	329.8	0	329.8		South			90
+267	03-Jun-2014	Office Expenses	453	Overhead	-22.12	-3.32	-25.44	15% GST on Expenses		RPT453-1	Refund as agreed due to window break when guard absent	
+271	05-Jun-2014	Unpaid Expense Claims	801	Current Liability	-34.9	0	-34.9					
+273	05-Jun-2014	Unpaid Expense Claims	801	Current Liability	-34.9	0	-34.9					90
+274	05-Jun-2014	Unpaid Expense Claims	801	Current Liability	34.9	0	34.9					90
+272	05-Jun-2014	Unpaid Expense Claims	801	Current Liability	34.9	0	34.9					90
+271	05-Jun-2014	GST	820	Current Liability	4.55	0	4.55					
+270	05-Jun-2014	GST	820	Current Liability	17.72	0	17.72			RPT445-1		
+275	05-Jun-2014	Accounts Payable	800	Current Liability	1463.88	0	1463.88					90
+270	05-Jun-2014	Accounts Payable	800	Current Liability	-135.85	0	-135.85			RPT445-1		
+276	05-Jun-2014	Business Bank Account	90	Bank	-15	0	-15			Fee		90
+273	05-Jun-2014	Business Bank Account	90	Bank	34.9	0	34.9					90
+275	05-Jun-2014	Business Bank Account	90	Bank	-1463.88	0	-1463.88					90
+274	05-Jun-2014	Business Bank Account	90	Bank	-34.9	0	-34.9					90
+272	05-Jun-2014	Business Bank Account	90	Bank	-34.9	0	-34.9					90
+270	05-Jun-2014	Light, Power, Heating	445	Overhead	118.13	17.72	135.85	15% GST on Expenses		RPT445-1	Monthly electricity	
+271	05-Jun-2014	Travel - National	493	Overhead	15.65	2.35	18	15% GST on Expenses			Parking for MRE conference	
+271	05-Jun-2014	Travel - National	493	Overhead	14.7	2.2	16.9	15% GST on Expenses			Breakfast before MRE conference	
+276	05-Jun-2014	Bank Fees	404	Overhead	15	0	15	No GST		Fee	Bank fee	90
+278	06-Jun-2014	Accounts Payable	800	Current Liability	119.08	0	119.08					90
+277	06-Jun-2014	Accounts Payable	800	Current Liability	900	0	900		South			90
+279	06-Jun-2014	Accounts Payable	800	Current Liability	34.1	0	34.1					90
+278	06-Jun-2014	Business Bank Account	90	Bank	-119.08	0	-119.08					90
+277	06-Jun-2014	Business Bank Account	90	Bank	-900	0	-900		South			90
+279	06-Jun-2014	Business Bank Account	90	Bank	-34.1	0	-34.1					90
+280	10-Jun-2014	GST	820	Current Liability	6.11	0	6.11			RPT489-1		
+281	10-Jun-2014	Accounts Payable	800	Current Liability	135.85	0	135.85					90
+280	10-Jun-2014	Accounts Payable	800	Current Liability	-46.82	0	-46.82			RPT489-1		
+281	10-Jun-2014	Business Bank Account	90	Bank	-135.85	0	-135.85					90
+280	10-Jun-2014	Telephone & Internet	489	Overhead	40.71	6.11	46.82	15% GST on Expenses		RPT489-1	Cable internet	
+282	11-Jun-2014	GST	820	Current Liability	-807.07	0	-807.07		West Coast	INV-0020		
+282	11-Jun-2014	Accounts Receivable	610	Current Asset	6187.5	0	6187.5		West Coast	INV-0020		
+282	11-Jun-2014	Sales	200	Revenue	-5380.43	-807.07	-6187.5	15% GST on Income	West Coast	INV-0020	Onsite project management for CRM Project 3 days/week	
+283	12-Jun-2014	GST	820	Current Liability	-65.22	0	-65.22		South	INV-0021		
+283	12-Jun-2014	Accounts Receivable	610	Current Asset	500	0	500		South	INV-0021		
+283	12-Jun-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income	South	INV-0021	Half day training - Microsoft Office	
+285	15-Jun-2014	Tracking Transfers	877	Current Liability	500	0	500		South			
+285	15-Jun-2014	Tracking Transfers	877	Current Liability	-500	0	-500		South			
+284	15-Jun-2014	GST	820	Current Liability	65.22	0	65.22		South	CN-0026		
+287	15-Jun-2014	GST	820	Current Liability	-130.44	0	-130.44		South	INV-0024		
+292	15-Jun-2014	GST	820	Current Liability	260.87	0	260.87		Eastside	SM0195		
+291	15-Jun-2014	GST	820	Current Liability	-260.87	0	-260.87		Eastside	SM0195		
+288	15-Jun-2014	GST	820	Current Liability	260.87	0	260.87		Eastside	SM0195		
+286	15-Jun-2014	GST	820	Current Liability	-183.55	0	-183.55		Eastside	INV-0022		
+284	15-Jun-2014	Accounts Receivable	610	Current Asset	-500	0	-500		South	CN-0026		
+287	15-Jun-2014	Accounts Receivable	610	Current Asset	1000	0	1000		South	INV-0024		
+285	15-Jun-2014	Accounts Receivable	610	Current Asset	-500	0	-500		South			
+285	15-Jun-2014	Accounts Receivable	610	Current Asset	500	0	500		South			
+290	15-Jun-2014	Accounts Receivable	610	Current Asset	-6187.5	0	-6187.5		West Coast			90
+286	15-Jun-2014	Accounts Receivable	610	Current Asset	1407.25	0	1407.25		Eastside	INV-0022		
+289	15-Jun-2014	Accounts Payable	800	Current Liability	46.82	0	46.82					90
+292	15-Jun-2014	Accounts Payable	800	Current Liability	-2000	0	-2000		Eastside	SM0195		
+291	15-Jun-2014	Accounts Payable	800	Current Liability	2000	0	2000		Eastside	SM0195		
+288	15-Jun-2014	Accounts Payable	800	Current Liability	-2000	0	-2000		Eastside	SM0195		
+289	15-Jun-2014	Business Bank Account	90	Bank	-46.82	0	-46.82					90
+290	15-Jun-2014	Business Bank Account	90	Bank	6187.5	0	6187.5		West Coast			90
+292	15-Jun-2014	Advertising	400	Overhead	1739.13	260.87	2000	15% GST on Expenses	Eastside	SM0195	Design concepts for Oaktown Business Leader ad series	
+291	15-Jun-2014	Advertising	400	Overhead	-1739.13	-260.87	-2000	15% GST on Expenses	Eastside	SM0195	Design concepts for Oaktown Business Leader ad series	
+288	15-Jun-2014	Advertising	400	Overhead	1739.13	260.87	2000	15% GST on Expenses	Eastside	SM0195	Design concepts for Oaktown Business Leader ad series	
+284	15-Jun-2014	Sales	200	Revenue	434.78	65.22	500	15% GST on Income	South	CN-0026	CREDIT Half day training - Microsoft Office and include in suite of training INV0021	
+287	15-Jun-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income	South	INV-0024	Half day training - Microsoft Office  - reception staff (Session 1)	
+287	15-Jun-2014	Sales	200	Revenue	-434.78	-65.22	-500	15% GST on Income	South	INV-0024	Half day training - Microsoft Office - operations staff (Session 2)	
+286	15-Jun-2014	Sales	200	Revenue	-1223.7	-183.55	-1407.25	15% GST on Income	Eastside	INV-0022	Development work - developer onsite	
+293	17-Jun-2014	Accounts Receivable	610	Current Asset	-1407.25	0	-1407.25		Eastside			90
+293	17-Jun-2014	Business Bank Account	90	Bank	1407.25	0	1407.25		Eastside			90
+294	18-Jun-2014	GST	820	Current Liability	-32.61	0	-32.61		South	INV-0023		
+295	18-Jun-2014	Accounts Receivable	610	Current Asset	-1000	0	-1000		South			90
+294	18-Jun-2014	Accounts Receivable	610	Current Asset	250	0	250		South	INV-0023		
+295	18-Jun-2014	Business Bank Account	90	Bank	1000	0	1000		South			90
+294	18-Jun-2014	Sales	200	Revenue	-217.39	-32.61	-250	15% GST on Income	South	INV-0023	Project management & implementation - branding workshop with your team - follow up session	
+296	19-Jun-2014	GST	820	Current Liability	776.58	0	776.58			08-4123		
+297	19-Jun-2014	GST	820	Current Liability	195.65	0	195.65			Dep		
+296	19-Jun-2014	Accounts Payable	800	Current Liability	-5953.75	0	-5953.75			08-4123		
+297	19-Jun-2014	Accounts Payable	800	Current Liability	-1500	0	-1500			Dep		
+297	19-Jun-2014	Purchases	300	Direct Costs	1304.35	195.65	1500	15% GST on Expenses		Dep	Deposit on venue hire for client function	
+296	19-Jun-2014	Advertising	400	Overhead	5177.17	776.58	5953.75	15% GST on Expenses		08-4123	20-second still frame ad shown in 5 city cinemas 5 times each	
+299	20-Jun-2014	GST	820	Current Liability	-32.61	0	-32.61		West Coast	INV-0027		
+298	20-Jun-2014	GST	820	Current Liability	154.08	0	154.08			RPT469-1		
+299	20-Jun-2014	Accounts Receivable	610	Current Asset	600	0	600		South	INV-0027		
+299	20-Jun-2014	Accounts Receivable	610	Current Asset	250	0	250		West Coast	INV-0027		
+298	20-Jun-2014	Accounts Payable	800	Current Liability	-1181.25	0	-1181.25			RPT469-1		
+298	20-Jun-2014	Rent	469	Overhead	1027.17	154.08	1181.25	15% GST on Expenses		RPT469-1	Monthly rent in advance	
+299	20-Jun-2014	Sales	200	Revenue	-600	0	-600	No GST	South	INV-0027	Project management & implementation - 'due diligence' stocktake of your project scope/schedule/implementation plan/outcome measures (hourly rate as agreed)	
+299	20-Jun-2014	Sales	200	Revenue	-217.39	-32.61	-250	15% GST on Income	West Coast	INV-0027	Project management & implementation - branding workshop with your team	
+300	22-Jun-2014	Business Bank Account	90	Bank	-148.5	0	-148.5		Eastside	Chq 410		90
+300	22-Jun-2014	GST	820	Current Liability	19.37	0	19.37		Eastside	Chq 410		90
+300	22-Jun-2014	Motor Vehicle Expenses	449	Overhead	129.13	19.37	148.5	15% GST on Expenses	Eastside	Chq 410	Monthly carpark	90
+301	25-Jun-2014	GST	820	Current Liability	7.35	0	7.35			RPT412-1		
+302	25-Jun-2014	GST	820	Current Liability	-2.6	0	-2.6		South	INV-0028		
+303	25-Jun-2014	Accounts Receivable	610	Current Asset	-408.96	0	-408.96		South			90
+303	25-Jun-2014	Accounts Receivable	610	Current Asset	-170.41	0	-170.41		West Coast			90
+302	25-Jun-2014	Accounts Receivable	610	Current Asset	19.95	0	19.95		South	INV-0028		
+301	25-Jun-2014	Accounts Payable	800	Current Liability	-56.35	0	-56.35			RPT412-1		
+303	25-Jun-2014	Business Bank Account	90	Bank	408.96	0	408.96		South			90
+303	25-Jun-2014	Business Bank Account	90	Bank	170.41	0	170.41		West Coast			90
+301	25-Jun-2014	Consulting & Accounting	412	Overhead	49	7.35	56.35	15% GST on Expenses		RPT412-1	Monthly subscription	
+302	25-Jun-2014	Sales	200	Revenue	-17.35	-2.6	-19.95	15% GST on Income	South	INV-0028	'Fish out of Water: Finding Your Brand'	
+304	26-Jun-2014	Business Bank Account	90	Bank	-34.1	0	-34.1			Eft		90
+304	26-Jun-2014	GST	820	Current Liability	4.45	0	4.45			Eft		90
+304	26-Jun-2014	General Expenses	429	Overhead	29.65	4.45	34.1	15% GST on Expenses		Eft	Misc kitchen supplies for office	90
+306	30-Jun-2014	GST	820	Current Liability	-70.6	0	-70.6		North	INV-0029		
+307	30-Jun-2014	GST	820	Current Liability	-70.6	0	-70.6		South	INV-0030		
+309	30-Jun-2014	GST	820	Current Liability	-70.6	0	-70.6		West Coast	INV-0032		
+305	30-Jun-2014	GST	820	Current Liability	7.77	0	7.77			RPT453-1		
+308	30-Jun-2014	GST	820	Current Liability	-70.6	0	-70.6		Eastside	INV-0031		
+306	30-Jun-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		North	INV-0029		
+307	30-Jun-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		South	INV-0030		
+309	30-Jun-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		West Coast	INV-0032		
+308	30-Jun-2014	Accounts Receivable	610	Current Asset	541.25	0	541.25		Eastside	INV-0031		
+310	30-Jun-2014	Accounts Payable	800	Current Liability	1181.25	0	1181.25					90
+305	30-Jun-2014	Accounts Payable	800	Current Liability	-59.54	0	-59.54			RPT453-1		
+310	30-Jun-2014	Business Bank Account	90	Bank	-1181.25	0	-1181.25					90
+305	30-Jun-2014	Office Expenses	453	Overhead	51.77	7.77	59.54	15% GST on Expenses		RPT453-1	Our share building doorman/security	
+306	30-Jun-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	North	INV-0029	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+307	30-Jun-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	South	INV-0030	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+309	30-Jun-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	West Coast	INV-0032	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+308	30-Jun-2014	Sales	200	Revenue	-470.65	-70.6	-541.25	15% GST on Income	Eastside	INV-0031	Desktop/network support via email & phone. Per month fixed fee for minimum 20 hours/month.	
+311	01-Jul-2014	GST	820	Current Liability	-32.61	0	-32.61		West Coast	INV-0033		
+311	01-Jul-2014	GST	820	Current Liability	-2.6	0	-2.6			INV-0033		
+311	01-Jul-2014	Accounts Receivable	610	Current Asset	250	0	250		West Coast	INV-0033		
+311	01-Jul-2014	Accounts Receivable	610	Current Asset	19.95	0	19.95			INV-0033		
+312	01-Jul-2014	Accounts Payable	800	Current Liability	59.54	0	59.54					90
+312	01-Jul-2014	Business Bank Account	90	Bank	-59.54	0	-59.54					90
+311	01-Jul-2014	Sales	200	Revenue	-217.39	-32.61	-250	15% GST on Income	West Coast	INV-0033	Project management & implementation - branding workshop with your team	
+311	01-Jul-2014	Sales	200	Revenue	-17.35	-2.6	-19.95	15% GST on Income		INV-0033	'Fish out of Water: Finding Your Brand'	
+313	05-Jul-2014	Unpaid Expense Claims	801	Current Liability	-29.5	0	-29.5		Eastside			
+313	05-Jul-2014	GST	820	Current Liability	3.85	0	3.85		Eastside			
+314	05-Jul-2014	Accounts Payable	800	Current Liability	56.35	0	56.35					90
+314	05-Jul-2014	Business Bank Account	90	Bank	-56.35	0	-56.35					90
+313	05-Jul-2014	Printing & Stationery	461	Overhead	25.65	3.85	29.5	15% GST on Expenses	Eastside		Print/bind report	
+315	06-Jul-2014	Accounts Receivable	610	Current Asset	-231.52	0	-231.52		West Coast			90
+315	06-Jul-2014	Accounts Receivable	610	Current Asset	-18.48	0	-18.48					90
+315	06-Jul-2014	Business Bank Account	90	Bank	231.52	0	231.52		West Coast			90
+315	06-Jul-2014	Business Bank Account	90	Bank	18.48	0	18.48					90
+316	07-Jul-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		North			90
+316	07-Jul-2014	Business Bank Account	90	Bank	541.25	0	541.25		North			90
+317	07-Jul-2014	Computer Equipment	720	Fixed Asset	-2569	0	-2569	No GST			Coded incorrectly Office Equipment should be Computer Equipment	
+317	07-Jul-2014	Office Equipment	710	Fixed Asset	2569	0	2569	No GST			Coded incorrectly Computer Equipment should be Office Equipment	
+319	08-Jul-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		South			90
+320	08-Jul-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		Eastside			90
+319	08-Jul-2014	Business Bank Account	90	Bank	541.25	0	541.25		South			90
+320	08-Jul-2014	Business Bank Account	90	Bank	541.25	0	541.25		Eastside			90
+318	08-Jul-2014	Business Bank Account	90	Bank	-49.2	0	-49.2			Eft		90
+318	08-Jul-2014	GST	820	Current Liability	6.42	0	6.42			Eft		90
+318	08-Jul-2014	Printing & Stationery	461	Overhead	42.78	6.42	49.2	15% GST on Expenses		Eft	Photocopier paper	90
+322	10-Jul-2014	Tracking Transfers	877	Current Liability	18.48	0	18.48		West Coast			
+322	10-Jul-2014	Tracking Transfers	877	Current Liability	1.47	0	1.47					
+322	10-Jul-2014	Tracking Transfers	877	Current Liability	-19.95	0	-19.95					
+321	10-Jul-2014	GST	820	Current Liability	2.6	0	2.6			CN-0034		
+321	10-Jul-2014	Accounts Receivable	610	Current Asset	-19.95	0	-19.95			CN-0034		
+322	10-Jul-2014	Accounts Receivable	610	Current Asset	-18.48	0	-18.48		West Coast			
+322	10-Jul-2014	Accounts Receivable	610	Current Asset	-1.47	0	-1.47					
+322	10-Jul-2014	Accounts Receivable	610	Current Asset	19.95	0	19.95					
+324	10-Jul-2014	Business Bank Account	90	Bank	-69.5	0	-69.5			Chq 411		90
+323	10-Jul-2014	Business Bank Account	90	Bank	-22	0	-22					90
+324	10-Jul-2014	GST	820	Current Liability	9.07	0	9.07			Chq 411		90
+323	10-Jul-2014	GST	820	Current Liability	2.87	0	2.87					90
+324	10-Jul-2014	Repairs and Maintenance	473	Overhead	60.43	9.07	69.5	15% GST on Expenses		Chq 411	Emergency locksmith - front office door	90
+323	10-Jul-2014	Entertainment	420	Overhead	19.13	2.87	22	15% GST on Expenses			Staff coffees	90
+321	10-Jul-2014	Sales	200	Revenue	17.35	2.6	19.95	15% GST on Income		CN-0034	'Fish out of Water: Finding Your Brand' - credit - charged in error - should be included overall project	
+325	12-Jul-2014	Accounts Payable	800	Current Liability	5953.75	0	5953.75					90
+325	12-Jul-2014	Business Bank Account	90	Bank	-5953.75	0	-5953.75					90
+326	13-Jul-2014	Accounts Payable	800	Current Liability	1500	0	1500					90
+326	13-Jul-2014	Business Bank Account	90	Bank	-1500	0	-1500					90
+327	14-Jul-2014	Accounts Receivable	610	Current Asset	-541.25	0	-541.25		West Coast			90
+327	14-Jul-2014	Business Bank Account	90	Bank	541.25	0	541.25		West Coast			90
+330	16-Jul-2014	GST	820	Current Liability	-326.09	0	-326.09		Eastside	SM0210		
+329	16-Jul-2014	GST	820	Current Liability	326.09	0	326.09		Eastside	SM0210		
+328	16-Jul-2014	GST	820	Current Liability	14.17	0	14.17			RPT445-1		
+331	16-Jul-2014	GST	820	Current Liability	326.09	0	326.09		Eastside	SM0210		
+330	16-Jul-2014	Accounts Payable	800	Current Liability	2500	0	2500		Eastside	SM0210		
+329	16-Jul-2014	Accounts Payable	800	Current Liability	-2500	0	-2500		Eastside	SM0210		
+328	16-Jul-2014	Accounts Payable	800	Current Liability	-108.6	0	-108.6			RPT445-1		
+331	16-Jul-2014	Accounts Payable	800	Current Liability	-2500	0	-2500		Eastside	SM0210		
+328	16-Jul-2014	Light, Power, Heating	445	Overhead	94.43	14.17	108.6	15% GST on Expenses		RPT445-1	Monthly electricity	
+330	16-Jul-2014	Advertising	400	Overhead	-2173.91	-326.09	-2500	15% GST on Expenses	Eastside	SM0210	Prototype media banner & print mockups for Oaktown Business Leader ad series	
+329	16-Jul-2014	Advertising	400	Overhead	2173.91	326.09	2500	15% GST on Expenses	Eastside	SM0210	Prototype media banner & print mockups for Oaktown Business Leader ad series	
+331	16-Jul-2014	Advertising	400	Overhead	2173.91	326.09	2500	15% GST on Expenses	Eastside	SM0210	Prototype media banner & print mockups for Oaktown Business Leader ad series	
+332	20-Jul-2014	GST	820	Current Liability	-807.07	0	-807.07		West Coast	INV-0035		
+332	20-Jul-2014	Accounts Receivable	610	Current Asset	6187.5	0	6187.5		West Coast	INV-0035		
+332	20-Jul-2014	Sales	200	Revenue	-5380.43	-807.07	-6187.5	15% GST on Income	West Coast	INV-0035	Onsite project management for CRM Project 3 days/week	
+334	21-Jul-2014	Unpaid Expense Claims	801	Current Liability	-115.95	0	-115.95					
+335	21-Jul-2014	Unpaid Expense Claims	801	Current Liability	29.5	0	29.5		Eastside			90
+334	21-Jul-2014	GST	820	Current Liability	15.12	0	15.12					
+333	21-Jul-2014	GST	820	Current Liability	154.08	0	154.08			RPT469-1		
+333	21-Jul-2014	Accounts Payable	800	Current Liability	-1181.25	0	-1181.25			RPT469-1		
+336	21-Jul-2014	Accounts Payable	800	Current Liability	108.6	0	108.6					90
+336	21-Jul-2014	Business Bank Account	90	Bank	-108.6	0	-108.6					90
+335	21-Jul-2014	Business Bank Account	90	Bank	-29.5	0	-29.5		Eastside			90
+333	21-Jul-2014	Rent	469	Overhead	1027.17	154.08	1181.25	15% GST on Expenses		RPT469-1	Monthly rent in advance	
+334	21-Jul-2014	Office Equipment	710	Fixed Asset	100.83	15.12	115.95	15% GST on Expenses			Battery pack & power cable for home office	
+337	22-Jul-2014	Accounts Payable	800	Current Liability	1181.25	0	1181.25					90
+337	22-Jul-2014	Business Bank Account	90	Bank	-1181.25	0	-1181.25					90
+338	24-Jul-2014	GST	820	Current Liability	7.06	0	7.06			RPT489-1		
+338	24-Jul-2014	Accounts Payable	800	Current Liability	-54.13	0	-54.13			RPT489-1		
+338	24-Jul-2014	Telephone & Internet	489	Overhead	47.07	7.06	54.13	15% GST on Expenses		RPT489-1	Cable internet	
+339	25-Jul-2014	GST	820	Current Liability	14.17	0	14.17			RPT445-1		
+339	25-Jul-2014	Accounts Payable	800	Current Liability	-108.6	0	-108.6			RPT445-1		
+339	25-Jul-2014	Light, Power, Heating	445	Overhead	94.43	14.17	108.6	15% GST on Expenses		RPT445-1	Monthly electricity	
+340	26-Jul-2014	GST	820	Current Liability	7.35	0	7.35			RPT412-1		
+342	26-Jul-2014	GST	820	Current Liability	16.96	0	16.96					
+341	26-Jul-2014	GST	820	Current Liability	7.77	0	7.77			RPT453-1		
+340	26-Jul-2014	Accounts Payable	800	Current Liability	-56.35	0	-56.35			RPT412-1		
+342	26-Jul-2014	Accounts Payable	800	Current Liability	-130	0	-130					
+341	26-Jul-2014	Accounts Payable	800	Current Liability	-59.54	0	-59.54			RPT453-1		
+341	26-Jul-2014	Office Expenses	453	Overhead	51.77	7.77	59.54	15% GST on Expenses		RPT453-1	Our share building doorman/security	
+342	26-Jul-2014	General Expenses	429	Overhead	113.04	16.96	130	15% GST on Expenses			Room hire	
+340	26-Jul-2014	Consulting & Accounting	412	Overhead	49	7.35	56.35	15% GST on Expenses		RPT412-1	Monthly subscription	
+344	27-Jul-2014	GST	820	Current Liability	-84.78	0	-84.78		South	INV-0034		
+343	27-Jul-2014	GST	820	Current Liability	150	0	150		North	710		
+344	27-Jul-2014	Accounts Receivable	610	Current Asset	650	0	650		South	INV-0034		
+343	27-Jul-2014	Accounts Payable	800	Current Liability	-1150	0	-1150		North	710		
+343	27-Jul-2014	Office Equipment	710	Fixed Asset	1000	150	1150	15% GST on Expenses	North	710	Coffee table for reception	
+344	27-Jul-2014	Sales	200	Revenue	-565.22	-84.78	-650	15% GST on Income	South	INV-0034	Development work - develper onsite	
+346	28-Jul-2014	GST	820	Current Liability	53.65	0	53.65		West Coast	449		
+351	28-Jul-2014	GST	820	Current Liability	119.29	0	119.29			INV-0036		
+352	28-Jul-2014	GST	820	Current Liability	-119.29	0	-119.29			INV-0036		
+347	28-Jul-2014	GST	820	Current Liability	-119.29	0	-119.29			INV-0036		
+345	28-Jul-2014	GST	820	Current Liability	16.31	0	16.31		North	ABC		
+351	28-Jul-2014	Accounts Receivable	610	Current Asset	-914.55	0	-914.55			INV-0036		
+352	28-Jul-2014	Accounts Receivable	610	Current Asset	914.55	0	914.55			INV-0036		
+347	28-Jul-2014	Accounts Receivable	610	Current Asset	914.55	0	914.55			INV-0036		
+346	28-Jul-2014	Accounts Payable	800	Current Liability	-411.35	0	-411.35		West Coast	449		
+345	28-Jul-2014	Accounts Payable	800	Current Liability	-125.03	0	-125.03		North	ABC		
+350	28-Jul-2014	Business Bank Account	90	Bank	-49.9	0	-49.9			Sub 098801		90
+348	28-Jul-2014	Business Bank Account	90	Bank	-49.5	0	-49.5			Sub 098801		90
+349	28-Jul-2014	Business Bank Account	90	Bank	49.5	0	49.5			Sub 098801		90
+350	28-Jul-2014	GST	820	Current Liability	6.51	0	6.51			Sub 098801		90
+348	28-Jul-2014	GST	820	Current Liability	6.46	0	6.46			Sub 098801		90
+349	28-Jul-2014	GST	820	Current Liability	-6.46	0	-6.46			Sub 098801		90
+345	28-Jul-2014	Freight & Courier	425	Overhead	108.72	16.31	125.03	15% GST on Expenses	North	ABC	Delivery of new reception furniture	
+346	28-Jul-2014	Motor Vehicle Expenses	449	Overhead	357.7	53.65	411.35	15% GST on Expenses	West Coast	449	Annual service company car	
+350	28-Jul-2014	Subscriptions	485	Overhead	43.39	6.51	49.9	15% GST on Expenses		Sub 098801	Subscription	90
+348	28-Jul-2014	Subscriptions	485	Overhead	43.04	6.46	49.5	15% GST on Expenses		Sub 098801	Subscription	90
+349	28-Jul-2014	Subscriptions	485	Overhead	-43.04	-6.46	-49.5	15% GST on Expenses		Sub 098801	Subscription	90
+351	28-Jul-2014	Sales	200	Revenue	403.96	60.59	464.55	15% GST on Income		INV-0036	Project team meeting to discuss dev changes required to your online gift basket ordering system	
+351	28-Jul-2014	Sales	200	Revenue	391.3	58.7	450	15% GST on Income		INV-0036	Development work - per hour rate	
+352	28-Jul-2014	Sales	200	Revenue	-403.96	-60.59	-464.55	15% GST on Income		INV-0036	Project team meeting to discuss dev changes required to your online gift basket ordering system	
+352	28-Jul-2014	Sales	200	Revenue	-391.3	-58.7	-450	15% GST on Income		INV-0036	Development work - per hour rate	
+347	28-Jul-2014	Sales	200	Revenue	-403.96	-60.59	-464.55	15% GST on Income		INV-0036	Project team meeting to discuss dev changes required to your online gift basket ordering system	
+347	28-Jul-2014	Sales	200	Revenue	-391.3	-58.7	-450	15% GST on Income		INV-0036	Development work - per hour rate	
+353	29-Jul-2014	GST	820	Current Liability	109.57	0	109.57			GB1-White		
+354	29-Jul-2014	GST	820	Current Liability	-51.65	0	-51.65			INV-0037		
+354	29-Jul-2014	Accounts Receivable	610	Current Asset	396	0	396			INV-0037		
+353	29-Jul-2014	Accounts Payable	800	Current Liability	-840	0	-840			GB1-White		
+353	29-Jul-2014	Purchases	300	Direct Costs	730.43	109.57	840	15% GST on Expenses		GB1-White	Golf balls - white single	
+354	29-Jul-2014	Sales	200	Revenue	-344.35	-51.65	-396	15% GST on Income		INV-0037	Marketing guides	
+355	30-Jul-2014	GST	820	Current Liability	-30.52	0	-30.52			INV-0038		
+355	30-Jul-2014	Accounts Receivable	610	Current Asset	234	0	234			INV-0038		
+356	30-Jul-2014	Business Bank Account	90	Bank	35	0	35			Sub 098801		90
+356	30-Jul-2014	GST	820	Current Liability	-4.57	0	-4.57			Sub 098801		90
+355	30-Jul-2014	Freight & Courier	425	Overhead	-8.7	-1.3	-10	15% GST on Expenses		INV-0038	Courier charge	
+356	30-Jul-2014	Subscriptions	485	Overhead	-30.43	-4.57	-35	15% GST on Expenses		Sub 098801	Long-term subscriber discount - refund on sub	90
+355	30-Jul-2014	Sales	200	Revenue	-194.78	-29.22	-224	15% GST on Income		INV-0038	Golf balls - white single	
+359	31-Jul-2014	GST	820	Current Liability	-5.48	0	-5.48			CS815		
+363	31-Jul-2014	GST	820	Current Liability	31.57	0	31.57			CS815		
+361	31-Jul-2014	GST	820	Current Liability	-7.77	0	-7.77			RPT453-1		
+360	31-Jul-2014	GST	820	Current Liability	5.48	0	5.48			CS815		
+358	31-Jul-2014	GST	820	Current Liability	5.48	0	5.48			CS815		
+357	31-Jul-2014	GST	820	Current Liability	7.77	0	7.77			RPT453-1		
+362	31-Jul-2014	GST	820	Current Liability	-5.48	0	-5.48			CS815		
+359	31-Jul-2014	Accounts Payable	800	Current Liability	42	0	42			CS815		
+363	31-Jul-2014	Accounts Payable	800	Current Liability	-242	0	-242			CS815		
+361	31-Jul-2014	Accounts Payable	800	Current Liability	59.54	0	59.54			RPT453-1		
+360	31-Jul-2014	Accounts Payable	800	Current Liability	-42	0	-42			CS815		
+358	31-Jul-2014	Accounts Payable	800	Current Liability	-42	0	-42			CS815		
+357	31-Jul-2014	Accounts Payable	800	Current Liability	-59.54	0	-59.54			RPT453-1		
+362	31-Jul-2014	Accounts Payable	800	Current Liability	42	0	42			CS815		
+361	31-Jul-2014	Office Expenses	453	Overhead	-51.77	-7.77	-59.54	15% GST on Expenses		RPT453-1	Our share building doorman/security	
+357	31-Jul-2014	Office Expenses	453	Overhead	51.77	7.77	59.54	15% GST on Expenses		RPT453-1	Our share building doorman/security	
+359	31-Jul-2014	Travel - National	493	Overhead	-36.52	-5.48	-42	15% GST on Expenses		CS815	Taxi services	
+363	31-Jul-2014	Travel - National	493	Overhead	210.43	31.57	242	15% GST on Expenses		CS815	Taxi services on account for the month	
+360	31-Jul-2014	Travel - National	493	Overhead	36.52	5.48	42	15% GST on Expenses		CS815	Taxi services	
+358	31-Jul-2014	Travel - National	493	Overhead	36.52	5.48	42	15% GST on Expenses		CS815	Taxi services	
+362	31-Jul-2014	Travel - National	493	Overhead	-36.52	-5.48	-42	15% GST on Expenses		CS815	Taxi services	
+365	01-Aug-2014	Bank Fees	404	Overhead	100	0	100	No GST			test	
+365	01-Aug-2014	Purchases	300	Direct Costs	-100	0	-100	No GST			test	
+364	07-Aug-2014	Accounts Payable	800	Current Liability	411.35	0	411.35		West Coast			90
+364	07-Aug-2014	Business Bank Account	90	Bank	-411.35	0	-411.35		West Coast			90

@@ -1,0 +1,29 @@
+<%= simple_form_for @entry do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.input :date, wrapper: :vertical_input_group, wrapper_html: { class: 'date' } do %>
+    <span class="input-group-addon">
+      <%= glyphicon('calendar') %>
+    </span>
+    <%= f.text_field :created_at, class: 'form-control', placeholder: "Entry Date" %>
+  <% end %>
+
+  <%= f.input :description, placeholder: "Description (e.g. Inventory purchased on credit)" %>
+
+  <%= f.label :debit %>
+  <%= f.simple_fields_for :debit_amounts do |p| %>
+    <%= p.hidden_field :type %>
+    <%= p.input :amount %>
+    <%= p.input :account_id, collection: Plutus::Account.all %>
+  <% end %>
+
+  <%= f.label :credit %>
+  <%= f.simple_fields_for :credit_amounts do |p| %>
+    <%= p.hidden_field :type %>
+    <%= p.input :amount %>
+    <%= p.input :account_id, collection: Plutus::Account.all %>
+  <% end %>
+
+  <%= f.button :submit, "Save", class: "btn-primary" %>
+  <%= link_to 'Cancel', :back, data: { confirm: "Discard changes?" } %>
+<% end %>
